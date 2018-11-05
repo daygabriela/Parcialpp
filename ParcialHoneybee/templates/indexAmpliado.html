@@ -1,0 +1,43 @@
+{% extends "baseAmpliada.html" %}
+
+{% block title %}¡Bienvenido!{% endblock %}
+
+<style>
+
+    *{
+        text-align: center;
+    }
+
+    #encabezado{
+        margin-top: 50px;
+    }
+
+    div{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    td, th{
+        width: 20%;        
+        border: 1.5px solid white;
+        text-align: center;
+    }
+
+    td{
+        background-color: hsl(200, 30%, 90%);
+    }
+
+    th{
+        background-color: hsl(200, 30%, 1%);
+        color: white;
+    }
+
+</style>
+
+{% block page_content %}
+<div class="page-header">    
+    <h1>¡Bienvenido a Honeybee Inc.!</h1>
+    <h6> Este sistema ha sido creado por <b>Bernal Dayana 95.807.968</b>, para el registro, control, seguimiento y respaldo de las ventas de la empresa.</h6>
+    <p>Para poder acceder y hacer uso del sistema, debe ingresar el <b>Usuario y Contraseña</b>, de lo contrario deberá registrarse ingresado los datos antes mencionados.</p>
+</div>
+{% endblock %}
